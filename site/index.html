@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peeyush Kumar - Research &amp; Innovation</title>
+  <meta name="description" content="Peeyush Kumar - AI Researcher, Builder, and Social Innovator. Expertise in LLMs, Reinforcement Learning, Energy Systems, and Agriculture AI.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;450;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============================================
+     Navigation
+     ============================================ -->
+<nav>
+  <div class="container">
+    <a href="https://peeyush-kumar.com" class="nav-name">&#8592; peeyush-kumar.com</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#patents">Patents</a></li>
+      <li><a href="#mentorship">Mentorship</a></li>
+      <li><a href="#talks">Talks &amp; Service</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#press">Press</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============================================
+     Hero
+     ============================================ -->
+<header class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-photo">
+        <img src="https://web.archive.org/web/20250215033108im_/https://www.microsoft.com/en-us/research/uploads/prod/2023/03/497fa90d2bc984426c38628af6398e27-2.jpg" alt="Peeyush Kumar" />
+      </div>
+      <div class="hero-text">
+        <h1>Peeyush Kumar</h1>
+        <p class="hero-tagline">AI Researcher &middot; Builder &middot; Social Innovator &middot; Entrepreneur</p>
+        <p class="hero-affiliations">
+          Previously: Senior Researcher, <strong>Microsoft Research</strong> &middot;
+          Co-founder &amp; CTO, <strong>Engooden Health</strong><br>
+          Ph.D. <strong>University of Washington Seattle</strong> &middot;
+          M.Tech &amp; B.Tech <strong>IIT Madras</strong>
+        </p>
+        <p class="hero-bio">
+          I am a systems &amp; AI researcher building technology that bridges people, process, and infrastructure in regenerative ways. My work spans <strong>agentic orchestration</strong>, <strong>large language models</strong>, <strong>reinforcement learning</strong>, and <strong>operations research</strong> - applied to commerce, energy systems, agriculture, food supply chains, healthcare, and community economics. I focus on using large AI models to create equitable, resilient systems at the intersection of industry and society.
+        </p>
+        <div class="hero-links">
+          <a href="https://scholar.google.com/citations?user=mh6kznYAAAAJ&hl=en" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+            Scholar
+          </a>
+          <a href="https://www.linkedin.com/in/agaronpeeyush/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://peeyush-kumar.com/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Website
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================
+     Research Projects
+     ============================================ -->
+<section id="projects">
+  <div class="container--wide">
+    <div class="section-header"><h2>Research Projects</h2></div>
+    <p class="section-intro">Building AI systems for real-world impact - from LLM reasoning models, LLM architectures to energy microgrids powering underserved communities that ground knowledge in domain knowledge.</p>
+
+    <div class="project-grid">
+
+      <!-- LLM Reasoning for Underspecified Intent -->
+      <div class="project-card">
+        <img class="project-card-img" src="../intent.png" alt="AI reasoning and intent illustration">
+        <div class="project-card-body">
+          <h3>LLM Reasoning for Underspecified Intent</h3>
+          <p>A Bayesian learning framework for intent tracking that models user goals as they evolve across interaction steps and execution states. Infers latent objectives, identifies missing constraints, and maps high-level intent into executable task structures. Achieved 15% improvement in intent prediction accuracy.</p>
+          <div class="project-tags">
+            <span class="tag">LLM</span>
+            <span class="tag">Reasoning</span>
+            <span class="tag">Bayesian Learning</span>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Rubric Learning for Grader Evolution -->
+      <div class="project-card">
+        <img class="project-card-img" src="../rubric_learning.png" alt="Rubric learning for grader evolution">
+        <div class="project-card-body">
+          <h3>Rubric Learning for Grader Evolution for Fine-Tuning LLMs</h3>
+          <p>A framework for constructing and iteratively refining graders that encode task-specific notions of quality, completeness, and appropriateness. Treats the grader as an adaptive object that improves through exposure to completed jobs and outcome signals. Produced 20% improvement in evaluation quality for fine-tuning datasets.</p>
+          <div class="project-tags">
+            <span class="tag">LLM</span>
+            <span class="tag">Fine-Tuning</span>
+            <span class="tag">Evaluation</span>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Evaluation Design for Culturally Sensitive Tasks -->
+      <div class="project-card">
+        <img class="project-card-img" src="../cultural_bias_evaluation_hero.svg" alt="Cultural diversity and AI evaluation">
+        <div class="project-card-body">
+          <h3>Evaluation Design for Long-Form LLM Generation for Culturally Sensitive Tasks</h3>
+          <p>An ontology-driven evaluation framework for identifying implicit cultural bias in long-form model outputs. Specifies measurable criteria for outputs whose success depends on cultural sensitivity and contextual appropriateness. Achieved 20% better detection of implicit cultural bias relative to baseline methods.</p>
+          <div class="project-tags">
+            <span class="tag">LLM</span>
+            <span class="tag">Evaluation</span>
+            <span class="tag">Cultural Bias</span>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- OG-RAG -->
+      <div class="project-card">
+        <img class="project-card-img" src="assets/ograg.png" alt="OG-RAG: Ontology-Grounded Retrieval-Augmented Generation">
+        <div class="project-card-body">
+          <h3>OG-RAG: Ontology-Grounded Retrieval-Augmented Generation</h3>
+          <p>A novel method that anchors LLM retrieval in domain-specific ontologies using hypergraph representations. Achieves 55% better fact recall and 40% improved correctness across four LLMs.</p>
+          <div class="project-tags">
+            <span class="tag">LLM</span>
+            <span class="tag">RAG</span>
+            <span class="tag">Knowledge Graphs</span>
+            <span class="tag">EMNLP 2025</span>
+          </div>
+          <div class="project-links">
+            <a href="https://aclanthology.org/2025.emnlp-main.1674.pdf" target="_blank">Paper</a>
+            <a href="https://github.com/microsoft/ograg2" target="_blank">Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI-Powered Microgrids -->
+      <div class="project-card">
+        <img class="project-card-img" src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=360&fit=crop" alt="Solar panels and renewable energy">
+        <div class="project-card-body">
+          <h3>AI-Powered Microgrids for Energy Resilience &amp; Equity</h3>
+          <p>Collaborating with rural communities to deploy AI-optimized microgrids that reduce energy costs for low-income households while maximizing renewable energy usage through reinforcement learning.</p>
+          <div class="project-tags">
+            <span class="tag">Reinforcement Learning</span>
+            <span class="tag">Energy</span>
+            <span class="tag">Equity</span>
+          </div>
+          <div class="project-links">
+            <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/10/AI-Community-Solar-Project-Article-with-Figures.pdf" target="_blank">Paper</a>
+            <a href="https://www.microsoft.com/en-us/research/blog/ai-powered-microgrids-facilitate-energy-resilience-and-equity-in-regional-communities/" target="_blank">Blog</a>
+            <a href="https://www.microsoft.com/en-us/research/project/community-powered-micro-grids/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Community Economics for Microgrids -->
+      <div class="project-card">
+        <img class="project-card-img" src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&h=360&fit=crop" alt="Community and energy infrastructure">
+        <div class="project-card-body">
+          <h3>Community Economics for AI-Powered Micro-Grids</h3>
+          <p>Designing economic models and optimization frameworks for community-owned micro-grids, enabling equitable energy distribution and participatory decision-making.</p>
+          <div class="project-tags">
+            <span class="tag">Economics</span>
+            <span class="tag">Optimization</span>
+            <span class="tag">Community Systems</span>
+          </div>
+          <div class="project-links">
+            <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2023/09/Community-Supported-Renewables-Microgrid.pdf" target="_blank">Paper</a>
+            <a href="https://www.microsoft.com/en-us/research/project/community-powered-micro-grids/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Multi-market Energy Optimization -->
+      <div class="project-card">
+        <img class="project-card-img" src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=360&fit=crop" alt="Wind turbines at sunset">
+        <div class="project-card-body">
+          <h3>Multi-Market Energy Optimization with Renewables</h3>
+          <p>Reinforcement learning framework for optimizing energy dispatch across multiple markets, determining when to generate, store, or sell electricity from renewable sources.</p>
+          <div class="project-tags">
+            <span class="tag">RL</span>
+            <span class="tag">Energy Markets</span>
+            <span class="tag">Optimization</span>
+          </div>
+          <div class="project-links">
+            <a href="https://arxiv.org/abs/2306.08147" target="_blank">Paper</a>
+            <a href="https://www.microsoft.com/en-us/research/project/community-powered-micro-grids/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- DeepMC -->
+      <div class="project-card">
+        <img class="project-card-img" src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=360&fit=crop" alt="Precision agriculture field">
+        <div class="project-card-body">
+          <h3>DeepMC: Micro-Climate Prediction Framework</h3>
+          <p>Multi-scale encoder-decoder deep learning framework for hyper-local weather prediction, enabling precision agriculture and renewable energy planning at the individual farm level.</p>
+          <div class="project-tags">
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Climate</span>
+            <span class="tag">Agriculture</span>
+            <span class="tag">KDD 2021</span>
+            <span class="tag">NeurIPS 2023</span>
+            <span class="tag">NeurIPS 2024</span>
+          </div>
+          <div class="project-links">
+            <a href="https://dx.doi.org/10.1145/3447548.3467173" target="_blank">Paper</a>
+            <a href="https://www.microsoft.com/en-us/research/blog/micro-climate-predictions-enabling-hyper-local-decisions-for-agriculture-and-renewables/" target="_blank">Blog</a>
+            <a href="https://www.microsoft.com/en-us/research/project/micro-climate-predictions/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Food Supply Chain -->
+      <div class="project-card">
+        <img class="project-card-img" src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=360&fit=crop" alt="Supply chain logistics">
+        <div class="project-card-body">
+          <h3>Re-Inventing the Food Supply Chain with IoT</h3>
+          <p>Data-driven platform combining IoT sensors, molecular tags, and AI to reduce food loss, enable traceability, and optimize cold chain logistics from farm to table.</p>
+          <div class="project-tags">
+            <span class="tag">IoT</span>
+            <span class="tag">Supply Chain</span>
+            <span class="tag">Food Systems</span>
+          </div>
+          <div class="project-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/9773091" target="_blank">Paper</a>
+            <a href="https://www.microsoft.com/en-us/research/project/foodvibes/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Democratizing Agriculture -->
+      <div class="project-card">
+        <img class="project-card-img" src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=360&fit=crop" alt="Drone over farmland">
+        <div class="project-card-body">
+          <h3>Democratizing Data-Driven Agriculture</h3>
+          <p>Making AI-powered agriculture accessible through affordable hardware, partnering with Land O'Lakes and the UN FAO to bring precision farming tools to smallholder farmers globally.</p>
+          <div class="project-tags">
+            <span class="tag">Affordable AI</span>
+            <span class="tag">Hardware</span>
+            <span class="tag">IEEE Micro</span>
+          </div>
+          <div class="project-links">
+            <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2022/09/Democratizing_Data-Driven_Agriculture_Using_Affordable_Hardware.pdf" target="_blank">Paper</a>
+            <a href="https://www.microsoft.com/en-us/research/project/project-farmvibes/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visage -->
+      <div class="project-card">
+        <img class="project-card-img" src="https://images.unsplash.com/photo-1508444845599-5c89863b1c44?w=600&h=360&fit=crop" alt="Drone flying over landscape">
+        <div class="project-card-body">
+          <h3>Visage: Timely Analytics for Drone Imagery</h3>
+          <p>Edge-cloud system enabling real-time analytics on drone imagery for agricultural monitoring, environmental sensing, and infrastructure inspection.</p>
+          <div class="project-tags">
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Edge Computing</span>
+            <span class="tag">MobiCom 2021</span>
+          </div>
+          <div class="project-links">
+            <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2021/09/Visage_Mobicom_2021.pdf" target="_blank">Paper</a>
+            <a href="https://www.microsoft.com/en-us/research/project/project-farmvibes/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RL Supply Chain -->
+      <div class="project-card">
+        <img class="project-card-img" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=360&fit=crop" alt="Network graph visualization">
+        <div class="project-card-body">
+          <h3>Privacy-Preserving Multi-Agent RL for Supply Chains</h3>
+          <p>Multi-agent reinforcement learning framework for optimizing supply chain decisions while preserving privacy of participating entities through secure computation.</p>
+          <div class="project-tags">
+            <span class="tag">Multi-Agent RL</span>
+            <span class="tag">Privacy</span>
+            <span class="tag">Supply Chain</span>
+          </div>
+          <div class="project-links">
+            <a href="https://arxiv.org/abs/2312.05686" target="_blank">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Engooden Health -->
+      <div class="project-card">
+        <img class="project-card-img" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=360&fit=crop" alt="Healthcare technology">
+        <div class="project-card-body">
+          <h3>Engooden Health: Clinical AI Platform</h3>
+          <p>Co-founded healthcare AI company processing clinical language to enable chronic care management, cohort identification, and evidence-based decision support at the point of care. Managing ~100K patients monthly.</p>
+          <div class="project-tags">
+            <span class="tag">NLP</span>
+            <span class="tag">Healthcare</span>
+            <span class="tag">Startup</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     Publications
+     ============================================ -->
+<section id="publications">
+  <div class="container">
+    <div class="section-header"><h2>Selected Publications</h2></div>
+
+    <!-- 2025 -->
+    <div class="pub-year-group">
+      <div class="pub-year">2025</div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://aclanthology.org/2025.emnlp-main.1674/" target="_blank">OG-RAG: Ontology-Grounded Retrieval-Augmented Generation for Large Language Models</a></div>
+        <div class="pub-authors">Kartik Sharma, <span class="me">Peeyush Kumar</span>, Yunqing Li</div>
+        <div class="pub-venue">EMNLP 2025</div>
+        <div class="pub-meta">
+          <a href="https://aclanthology.org/2025.emnlp-main.1674.pdf" target="_blank">PDF</a>
+          <a href="https://github.com/microsoft/ograg2" target="_blank">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2024 -->
+    <div class="pub-year-group">
+      <div class="pub-year">2024</div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/10/AI-Community-Solar-Project-Article-with-Figures.pdf" target="_blank">AI-Powered Microgrids Facilitate Energy Resilience and Equity in Regional Communities</a></div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span> et al.</div>
+        <div class="pub-venue">MSR Technical Report, MSR-TR-2024-44</div>
+        <div class="pub-meta">
+          <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/10/AI-Community-Solar-Project-Article-with-Figures.pdf" target="_blank">PDF</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2023 -->
+    <div class="pub-year-group">
+      <div class="pub-year">2023</div>
+      <div class="pub-item">
+        <div class="pub-title">Zero-Shot Micro-Climate Prediction with Deep Learning</div>
+        <div class="pub-authors">Iman Deznabi, <span class="me">Peeyush Kumar</span>, Madalina Fiterau</div>
+        <div class="pub-venue">NeurIPS 2023 Workshop: Tackling Climate Change with Machine Learning</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2312.05686" target="_blank">Privacy Preserving Multi-Agent Reinforcement Learning in Supply Chains</a></div>
+        <div class="pub-authors">Ananta Mukherjee, <span class="me">Peeyush Kumar</span>, Boling Yang, Nishanth Chandran, Divya Gupta</div>
+        <div class="pub-venue">arXiv:2312.05686</div>
+        <div class="pub-meta">
+          <a href="https://arxiv.org/abs/2312.05686" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2023/09/Community-Supported-Renewables-Microgrid.pdf" target="_blank">Community Economics for AI Powered Micro-Grid</a></div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span></div>
+        <div class="pub-venue">Microsoft Research, 2023</div>
+        <div class="pub-meta">
+          <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2023/09/Community-Supported-Renewables-Microgrid.pdf" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2306.08147" target="_blank">Multi-Market Energy Optimization with Renewables via Reinforcement Learning</a></div>
+        <div class="pub-authors">Lucien Werner, <span class="me">Peeyush Kumar</span></div>
+        <div class="pub-venue">arXiv:2306.08147</div>
+        <div class="pub-meta">
+          <a href="https://arxiv.org/abs/2306.08147" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2306.11885" target="_blank">Reward Shaping via Diffusion Process in Reinforcement Learning</a></div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span></div>
+        <div class="pub-venue">arXiv:2306.11885</div>
+        <div class="pub-meta">
+          <a href="https://arxiv.org/abs/2306.11885" target="_blank">PDF</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2022 -->
+    <div class="pub-year-group">
+      <div class="pub-year">2022</div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/9773091" target="_blank">Re-Inventing the Food Supply Chain with IoT: A Data-Driven Solution to Reduce Food Loss</a></div>
+        <div class="pub-authors">Vaishnavi Ranganathan, <span class="me">Peeyush Kumar</span>, Upinder Kaur, Sarah H.Q. Li, Tusher Chakraborty, Ranveer Chandra</div>
+        <div class="pub-venue">IEEE Internet of Things Magazine, Vol 5(1), 2022</div>
+        <div class="pub-meta">
+          <a href="https://ieeexplore.ieee.org/abstract/document/9773091" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2022/09/Democratizing_Data-Driven_Agriculture_Using_Affordable_Hardware.pdf" target="_blank">Democratizing Data-Driven Agriculture Using Affordable Hardware</a></div>
+        <div class="pub-authors">Ranveer Chandra, Manohar Swaminathan, Tusher Chakraborty, Jian Ding, Zerina Kapetanovic, <span class="me">Peeyush Kumar</span>, Deepak Vasisht</div>
+        <div class="pub-venue">IEEE Micro, Vol 42(1):69-77, 2022</div>
+        <div class="pub-meta">
+          <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2022/09/Democratizing_Data-Driven_Agriculture_Using_Affordable_Hardware.pdf" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">General Sum Stochastic Games with Networked Information Flows</div>
+        <div class="pub-authors">Sarah H.Q. Li, Lillian J. Ratliff, <span class="me">Peeyush Kumar</span></div>
+        <div class="pub-venue">Gamification and Multi-Agent Solutions @ ICLR 2022</div>
+      </div>
+    </div>
+
+    <!-- 2021 -->
+    <div class="pub-year-group">
+      <div class="pub-year">2021</div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://dx.doi.org/10.1145/3447548.3467173" target="_blank">Micro-Climate Prediction - Multi Scale Encoder-Decoder Based Deep Learning Framework</a></div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span>, Ranveer Chandra, Chetan Bansal, Shivkumar Kalyanaraman, Tanuja Ganu, Michael Grant</div>
+        <div class="pub-venue">ACM SIGKDD (KDD) 2021</div>
+        <div class="pub-meta">
+          <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2021/07/MCP_KDD_2021___Camera_Ready-4.pdf" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2021/09/Visage_Mobicom_2021.pdf" target="_blank">Visage: Enabling Timely Analytics for Drone Imagery</a></div>
+        <div class="pub-authors">Sagar Jha, Youjie Li, Shadi Noghabi, Vaishnavi Ranganathan, <span class="me">Peeyush Kumar</span>, Andrew Nelson, Michael Toelle, Sudipta Sinha, Ranveer Chandra, Anirudh Badam</div>
+        <div class="pub-venue">ACM MobiCom 2021</div>
+        <div class="pub-meta">
+          <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2021/09/Visage_Mobicom_2021.pdf" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">Affordable Artificial Intelligence - Augmenting Farmer Knowledge with AI</div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span>, Andrew Nelson, Zerina Kapetanovic, Ranveer Chandra</div>
+        <div class="pub-venue">FAO/ITU Digital Agriculture in Action, 2021</div>
+      </div>
+    </div>
+
+    <!-- 2018 and earlier -->
+    <div class="pub-year-group">
+      <div class="pub-year">2018 &amp; Earlier</div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://link.springer.com/chapter/10.1007/978-3-030-04726-9_20" target="_blank">Information Directed Policy Sampling for POMDPs with Parametric Uncertainty</a></div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span>, Archis Ghate</div>
+        <div class="pub-venue">INFORMS Advances in Service Science, Springer, 2018</div>
+        <div class="pub-meta">
+          <a href="https://link.springer.com/chapter/10.1007/978-3-030-04726-9_20" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://arxiv.org/abs/1703.06485" target="_blank">Near Optimal Hamiltonian-Control and Learning via Chattering</a></div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span>, Wolf Kohn, Zelda B. Zabinsky</div>
+        <div class="pub-venue">arXiv:1703.06485, 2017</div>
+        <div class="pub-meta">
+          <a href="https://arxiv.org/abs/1703.06485" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://arxiv.org/abs/1703.06471" target="_blank">Multi-Timescale, Gradient Descent, Temporal Difference Learning with Linear Options</a></div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span>, Doina Precup</div>
+        <div class="pub-venue">arXiv:1703.06471, 2017</div>
+        <div class="pub-meta">
+          <a href="https://arxiv.org/abs/1703.06471" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title"><a href="https://arxiv.org/abs/1605.05359" target="_blank">Option Discovery in Hierarchical Reinforcement Learning using Spatio-Temporal Clustering</a></div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span>, Aravind S. Lakshminarayanan, Ramnandan Krishnamurthy, Balaraman Ravindran</div>
+        <div class="pub-venue">ICML 2016 Workshop on Abstraction in RL</div>
+        <div class="pub-meta">
+          <a href="https://arxiv.org/abs/1605.05359" target="_blank">PDF</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">Spectral Clustering as Mapping to a Simplex</div>
+        <div class="pub-authors"><span class="me">Peeyush Kumar</span>, N. Narasimhan, Balaraman Ravindran</div>
+        <div class="pub-venue">ICML 2013 Workshop on Spectral Learning</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">Abstraction in Reinforcement Learning in Terms of Metastability</div>
+        <div class="pub-authors">Vimal Mathew, <span class="me">Peeyush Kumar</span>, Balaraman Ravindran</div>
+        <div class="pub-venue">10th European Workshop on Reinforcement Learning (EWRL), 2012</div>
+      </div>
+    </div>
+
+    <p style="font-size:0.85rem; color:var(--color-text-tertiary); margin-top:1rem;">
+      Full list on <a href="https://scholar.google.com/citations?user=mh6kznYAAAAJ&hl=en" target="_blank">Google Scholar</a>.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================
+     Patents
+     ============================================ -->
+<section id="patents">
+  <div class="container">
+    <div class="section-header"><h2>Patents</h2></div>
+
+    <ul class="patent-list">
+      <li class="patent-item">
+        <span class="patent-id">US-11625627-B2</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US11625627B2" target="_blank">Predicted Forecast Offset from Remote Location Sensor</a></div>
+        <div class="patent-meta">Peeyush Kumar, Ranveer Chandra, Chetan Bansal et al. &middot; Microsoft &middot; Granted Apr 2023</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">US-11232856-B2</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US11232856B2" target="_blank">Methods for Automatic Cohort Selection in Epidemiologic Studies and Clinical Trials</a></div>
+        <div class="patent-meta">Neel Master, Peeyush Kumar &middot; Engooden Health &middot; Granted Jan 2022</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">US-2023007082-A1</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US20230007082A1" target="_blank">Pollutant Sensor Placement</a></div>
+        <div class="patent-meta">Conor Kelly, Ashish Bhatia, Peeyush Kumar et al. &middot; Microsoft &middot; Filed Jan 2023</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">US-2023129665-A1</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US20230129665A1" target="_blank">Reinforcement Learning Simulation of Supply Chain Graph</a></div>
+        <div class="patent-meta">Peeyush Kumar, Sarah Li, Vaishnavi Ranganathan, Lillian Ratliff et al. &middot; Microsoft &middot; Filed Apr 2023</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">US-2023125457-A1</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US20230125457A1" target="_blank">Synthetic Molecular Tags for Supply Chain Tracking</a></div>
+        <div class="patent-meta">Yuan-Jyue Chen, Karin Strauss, Peeyush Kumar et al. &middot; Microsoft &middot; Filed Apr 2023</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">US-2022327335-A1</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US20220327335A1" target="_blank">Controlling Asynchronous Fusion of Spatio-Temporal Multimodal Data</a></div>
+        <div class="patent-meta">Kowshik Thopalli, Peeyush Kumar, Ranveer Chandra et al. &middot; Microsoft &middot; Filed Oct 2022</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">US-2023369863-A1</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US20230369863A1" target="_blank">Time-Shifting Optimizations for Resource Generation and Dispatch</a></div>
+        <div class="patent-meta">Peeyush Kumar, Alireza Sadeghi, Srinivasan Iyengar et al. &middot; Microsoft &middot; Filed Nov 2023</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">US-2023236559-A1</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US20230236559A1" target="_blank">Multi-Market Resource Dispatch Optimization</a></div>
+        <div class="patent-meta">Peeyush Kumar, Lucien Werner, Shivkumar Kalyanaraman et al. &middot; Microsoft &middot; Filed Jul 2023</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">US-2023245039-A1</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US20230245039A1" target="_blank">Tracking System for Food Commodity Supply Chain</a></div>
+        <div class="patent-meta">Vaishnavi Ranganathan, Peeyush Kumar, Ali Saffari et al. &middot; Microsoft &middot; Filed Aug 2023</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">US-2023222433-A1</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/US20230222433A1" target="_blank">Traceability System for Bulk Commodity Supply Chain</a></div>
+        <div class="patent-meta">Vaishnavi Ranganathan, Upinder Kaur, Peeyush Kumar et al. &middot; Microsoft &middot; Filed Jul 2023</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">WO-2016205153-A1</span>
+        <div class="patent-title"><a href="https://patents.google.com/patent/WO2016205153A1" target="_blank">Incremental Estimation for Probabilistic Forecaster</a></div>
+        <div class="patent-meta">Rekha Nanda, Yanfang Shen, Peeyush Kumar et al. &middot; Microsoft &middot; Filed Dec 2016</div>
+      </li>
+      <li class="patent-item">
+        <span class="patent-id">Provisional</span>
+        <div class="patent-title">Generative Future Predictions Based on Complex Events</div>
+        <div class="patent-meta">MS413056-US-NP &middot; Microsoft</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================
+     Mentorship
+     ============================================ -->
+<section id="mentorship">
+  <div class="container">
+    <div class="section-header"><h2>Mentorship</h2></div>
+    <p class="section-intro">Mentored PhD, Masters, and undergraduate students across top universities. Many have gone on to faculty positions and leading research roles.</p>
+
+    <div class="mentee-grid">
+      <div class="mentee-card">
+        <div class="mentee-name">Sarah Li</div>
+        <div class="mentee-detail">PhD, University of Washington Seattle (2021)</div>
+        <div class="mentee-outcome">Now: Assistant Professor, Georgia Tech</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Upinder Kaur</div>
+        <div class="mentee-detail">PhD, Purdue University (2021&ndash;2023)</div>
+        <div class="mentee-outcome">Now: Assistant Professor, Purdue</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Jessica Quaye</div>
+        <div class="mentee-detail">UG, MIT (2021)</div>
+        <div class="mentee-outcome">Now: PhD student, Harvard</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Lucien Werner</div>
+        <div class="mentee-detail">PhD, Caltech (2021)</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Alireza Sadeghi</div>
+        <div class="mentee-detail">PhD, University of Minnesota (2021)</div>
+        <div class="mentee-outcome">Now: 3M</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Christopher Cross</div>
+        <div class="mentee-detail">Masters, Stanford (2022&ndash;2023)</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Boling Yang</div>
+        <div class="mentee-detail">PhD, University of Washington (2022&ndash;2023)</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Yunqing Li</div>
+        <div class="mentee-detail">PhD, North Carolina State University (2023)</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Youya Xia</div>
+        <div class="mentee-detail">PhD, Cornell (2021)</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Kowshik Thopalli</div>
+        <div class="mentee-detail">PhD, Arizona State University (2020)</div>
+        <div class="mentee-outcome">Now: Researcher, National Lab</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Andalib Samandari</div>
+        <div class="mentee-detail">UG, Georgia State University (2023)</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Kartik Sharma</div>
+        <div class="mentee-detail">PhD, Georgia Tech</div>
+        <div class="mentee-outcome">Now: Microsoft</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Emiliano Diaz</div>
+        <div class="mentee-detail">Yale</div>
+      </div>
+      <div class="mentee-card">
+        <div class="mentee-name">Sagnik Mukherjee</div>
+        <div class="mentee-detail">PhD, UIUC</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     Talks & Service
+     ============================================ -->
+<section id="talks">
+  <div class="container">
+    <div class="section-header"><h2>Talks &amp; Service</h2></div>
+
+    <div class="two-col">
+      <div class="subsection">
+        <h3>Selected Talks &amp; Panels</h3>
+        <ul class="talks-list">
+          <li><span>Economic Anthropology in the Age of Generative AI - AAA Annual Meeting</span> <span class="talk-year">2024</span></li>
+          <li><span>Economic Anthropology in the Age of Generative AI - SEA/SAW Joint Meeting</span> <span class="talk-year">2024</span></li>
+          <li><span>Zero-Shot Learning - NeurIPS</span> <span class="talk-year">2023</span></li>
+          <li><span>INFORMS Annual Meeting</span> <span class="talk-year">2022</span></li>
+          <li><span>Cybersecurity, Water and Food Symposium - Virginia Tech</span> <span class="talk-year">2022</span></li>
+          <li><span>DOE AI4ESP Panel - AI for Earth System Predictability</span> <span class="talk-year">2021</span></li>
+          <li><span>ACM KDD - Conference on Knowledge Discovery &amp; Data Mining</span> <span class="talk-year">2021</span></li>
+          <li><span>UN FAO/ITU Digital Agriculture Solutions Forum - Asia-Pacific</span> <span class="talk-year">2020</span></li>
+          <li><span>MIT Sloan Business School - Invited Presentation</span> <span class="talk-year">2018</span></li>
+          <li><span>George Mason University - Invited Presentation</span> <span class="talk-year">2018</span></li>
+          <li><span>ICML</span> <span class="talk-year">2016</span></li>
+          <li><span>ISMP / RLDM</span> <span class="talk-year">2015</span></li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>Academic Service</h3>
+        <ul class="service-list">
+          <li><span>UK BRAID (Bridging Responsible AI Divide) - Grants Reviewer</span> <span class="service-year">2024</span></li>
+          <li><span>Microsoft AI &amp; Society Fellowship - Fund Reviewer</span> <span class="service-year">2024</span></li>
+          <li><span>Manufacturing &amp; Service Operations Management Journal - Reviewer</span> <span class="service-year">2023</span></li>
+          <li><span>IISE Transactions - Reviewer</span> <span class="service-year">2023</span></li>
+          <li><span>ACM PACM IMWUT - Reviewer</span> <span class="service-year">2023</span></li>
+          <li><span>ACM AgSys Workshop - PC Member &amp; Reviewer</span> <span class="service-year">2023</span></li>
+          <li><span>O2 VC Fund - Mentor &amp; Reviewer</span></li>
+          <li><span>IEEE Trans. on Control of Network Systems - Reviewer</span></li>
+          <li><span>IEEE Internet of Things Magazine - Reviewer</span></li>
+          <li><span>UW Global Innovation Exchange - Competition Judge</span> <span class="service-year">2021</span></li>
+          <li><span>PhD Committee - Iman Deznabi, UMass</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="subsection" style="margin-top: 1.5rem;">
+      <h3>Teaching</h3>
+      <ul class="talks-list">
+        <li><span>Probability and Statistics (Graduate &amp; Undergraduate) - University of Washington Seattle</span> <span class="talk-year">2019</span></li>
+        <li><span>Engineering Economics (Graduate &amp; Undergraduate) - University of Washington Seattle</span> <span class="talk-year">2016</span></li>
+        <li><span>Biomechanical Modelling (Graduate) - IIT Madras</span> <span class="talk-year">2013</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     Education & Awards
+     ============================================ -->
+<section id="education">
+  <div class="container">
+    <div class="section-header"><h2>Education &amp; Awards</h2></div>
+
+    <div class="two-col">
+      <div class="subsection">
+        <h3>Education</h3>
+        <ul class="edu-timeline">
+          <li class="edu-item">
+            <div class="edu-degree">Ph.D. in AI &amp; Operations Research</div>
+            <div class="edu-school">University of Washington Seattle</div>
+            <div class="edu-years">2013 &ndash; 2018</div>
+            <div class="edu-detail">Thesis: "Information Theoretic Learning Methods for MDPs with Parametric Uncertainty"<br>Advisor: Archis Ghate</div>
+          </li>
+          <li class="edu-item">
+            <div class="edu-degree">B.Tech in Aerospace Engineering with Physics</div>
+            <div class="edu-school">Indian Institute of Technology Madras</div>
+            <div class="edu-years">2008 &ndash; 2013</div>
+            <div class="edu-detail">Thesis: "Hierarchical Decision Making using Spatio-Temporal Abstraction in RL"<br>Advisor: Balaraman Ravindran</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     Press & Media
+     ============================================ -->
+<section id="press">
+  <div class="container">
+    <div class="section-header"><h2>Press &amp; Media</h2></div>
+
+    <ul class="news-list">
+      <li class="news-item">
+        <span class="news-source">Microsoft Research Blog</span>
+        <div class="news-title"><a href="https://www.microsoft.com/en-us/research/blog/ai-powered-microgrids-facilitate-energy-resilience-and-equity-in-regional-communities/" target="_blank">AI-Powered Microgrids Facilitate Energy Resilience and Equity in Regional Communities</a></div>
+        <div class="patent-meta">November 2024</div>
+      </li>
+      <li class="news-item">
+        <span class="news-source">E&amp;T Magazine</span>
+        <div class="news-title"><a href="https://eandt.theiet.org/content/articles/2023/06/ai-brainstorms-weather-prediction/" target="_blank">AI Brainstorms Weather Prediction</a></div>
+        <div class="patent-meta">June 2023</div>
+      </li>
+      <li class="news-item">
+        <span class="news-source">TechMonitor</span>
+        <div class="news-title"><a href="https://techmonitor.ai/technology/ai-and-automation/big-tech-coming-for-weather" target="_blank">Big Tech Is Coming for the Weather</a></div>
+        <div class="patent-meta">January 2022</div>
+      </li>
+      <li class="news-item">
+        <span class="news-source">IEEE Spectrum</span>
+        <div class="news-title"><a href="https://spectrum.ieee.org/deepmc-weather-predicition" target="_blank">Microsoft Predicts Weather for Individual Farms: DeepMC Uses Machine Learning and AI to Localize Weather Data</a></div>
+        <div class="patent-meta">October 2021</div>
+      </li>
+      <li class="news-item">
+        <span class="news-source">Microsoft Research Blog</span>
+        <div class="news-title"><a href="https://www.microsoft.com/en-us/research/blog/micro-climate-predictions-enabling-hyper-local-decisions-for-agriculture-and-renewables/" target="_blank">Micro-Climate Predictions: Enabling Hyper-Local Decisions for Agriculture and Renewables</a></div>
+        <div class="patent-meta">September 2021</div>
+      </li>
+      <li class="news-item">
+        <span class="news-source">Microsoft Research</span>
+        <div class="news-title"><a href="https://www.microsoft.com/en-us/research/video/precision-agriculture-uses-computer-science-to-make-farms-more-efficient-and-reduce-climate-change/" target="_blank">Precision Agriculture Uses Computer Science to Make Farms More Efficient and Reduce Climate Change</a></div>
+        <div class="patent-meta">October 2021</div>
+      </li>
+      <li class="news-item">
+        <span class="news-source">CNN Business</span>
+        <div class="news-title"><a href="https://www.cnn.com/videos/business/2020/07/15/microsoft-land-o-lakes-rural-broadband-access.cnnbusiness" target="_blank">Microsoft and Land O'Lakes Are Investing in Rural Communities</a></div>
+        <div class="patent-meta">July 2020</div>
+      </li>
+      <li class="news-item">
+        <span class="news-source">Business Wire</span>
+        <div class="news-title"><a href="https://www.businesswire.com/news/home/20220825005096/en/TribeHealth-Selects-Engooden-Health-to-Transform-Care-Delivery-Through-Chronic-Disease-Management" target="_blank">TribeHealth Selects Engooden Health to Transform Care Delivery Through Chronic Disease Management</a></div>
+        <div class="patent-meta">August 2022</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================
+     Footer
+     ============================================ -->
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Peeyush Kumar &middot; <a href="https://peeyush-kumar.com/">peeyush-kumar.com</a></p>
+  </div>
+</footer>
+
+<!-- Smooth scroll for nav links closing mobile menu -->
+<script>
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.remove('active');
+  });
+});
+</script>
+
+</body>
+</html>
