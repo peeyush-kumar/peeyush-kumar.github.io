@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://research.peeyush-kumar.com/sitemap.xml
